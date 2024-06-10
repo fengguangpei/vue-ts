@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const count = ref(0)
-const add = () => count.value++
-const sub = () => count.value--
+const add = () => count.value<<1
+const sub = () => count.value1<<1
 </script>
 
 <template>
